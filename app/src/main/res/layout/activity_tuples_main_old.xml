@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cardGrid"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context="com.anoxymoron.tuples.TuplesMain">
+
+    <TableRow
+        android:id="@+id/firstRow"
+        android:layout_weight="1">
+        <Button
+            android:id="@+id/firstCard"
+            android:layout_gravity="start|top"
+            android:layout_height="match_parent"
+            android:text="C1" />
+
+        <Button
+            android:id="@+id/secondCard"
+            android:layout_gravity="start|top"
+            android:layout_height="match_parent"
+            android:text="C2" />
+
+        <Button
+            android:id="@+id/thirdCard"
+            android:layout_gravity="start|top"
+            android:layout_height="match_parent"
+            android:text="C3" />
+
+        <Button
+            android:id="@+id/fourthCard"
+            android:layout_gravity="start|top"
+            android:layout_height="match_parent"
+            android:text="C4" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/secondRow"
+        android:layout_weight="1">
+        <Button
+            android:id="@+id/fifthCard"
+            android:layout_gravity="start|top"
+            android:layout_height="match_parent"
+            android:text="C5" />
+
+        <Button
+            android:id="@+id/sixthCard"
+            android:layout_gravity="start|top"
+            android:layout_height="match_parent"
+            android:text="C6" />
+
+        <Button
+            android:id="@+id/seventhCard"
+            android:layout_gravity="start|top"
+            android:layout_height="match_parent"
+            android:text="C7" />
+
+        <Button
+            android:id="@+id/eighthCard"
+            android:layout_gravity="start|top"
+            android:layout_height="match_parent"
+            android:text="C8" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/thirdRow"
+        android:layout_weight="1">
+        <Button
+            android:id="@+id/ninthCard"
+            android:layout_gravity="start|top"
+            android:layout_height="match_parent"
+            android:text="C9" />
+
+        <Button
+            android:id="@+id/tenthCard"
+            android:layout_gravity="start|top"
+            android:layout_height="match_parent"
+            android:text="C10" />
+
+        <Button
+            android:id="@+id/eleventhCard"
+            android:layout_gravity="start|top"
+            android:layout_height="match_parent"
+            android:text="C11" />
+
+        <Button
+            android:id="@+id/twelfthCard"
+            android:layout_gravity="start|top"
+            android:layout_height="match_parent"
+            android:text="C12" />
+    </TableRow>
+
+    <TextView
+            android:layout_weight="0.5"
+            android:text="Add time, set info here..."/>
+
+</TableLayout>
+
